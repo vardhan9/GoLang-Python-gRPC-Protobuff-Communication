@@ -15,10 +15,10 @@ Steps to follow
 
 11. In Server folder, create server.py file and add code.
 12. Move communication_pb2_grpc.py and communication_pb2.py files to the server folder.
-13. From terminal, cd gRPC_GoLang_Python_Protobuff\Server and run python server with command: python server.py
+13. From terminal, cd GoLang-Python-gRPC-Protobuff-Communication\Server and run python server with command: python server.py
 14. This will starts the server in the given port, 50051 in this case and you can "Server Started".
 
 15. In Client folder, create client.go file and add code.
-16. From gRPC_GoLang_Python_Protobuff, give comman: go run ./Client
+16. From GoLang-Python-gRPC-Protobuff-Communication, give comman: go run ./Client
 17. This should return "Response from server: Received: Hello from Go Client"
 18. Communication is established between Python server and Go client with Protocol buffers.
